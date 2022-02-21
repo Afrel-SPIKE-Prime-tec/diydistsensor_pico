@@ -17,7 +17,9 @@ LEGO(R) SPIKE Prime用のDistance Sensorとして認識される自作のセン�
 
 ![diy_distance_pico_sch](https://user-images.githubusercontent.com/5597377/154905261-ef6340d6-0085-4a5c-b20f-fb17dea6bce3.png)
 
-・Thonnyなどを使って、Raspberry Pi Pico内でコードを実行します。
+・Raspberry Pi PicoにMicroPythonのファームウェアを書き込みます。
+
+・Thonnyなどを使って、Pythonのコードを実行します。
 
 ## プロトコル
 (1)接続の開始
