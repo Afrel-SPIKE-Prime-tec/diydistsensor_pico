@@ -1,4 +1,4 @@
-# diydistsensor_pico
+# DIY Distance Sensor(Pico Version)
 
 ![2022-02-21_15-47-27_881](https://user-images.githubusercontent.com/5597377/154905247-233a7a38-cc52-4383-bda5-a77daba564c4.jpg)
 
@@ -10,16 +10,20 @@ LEGO(R) SPIKE Prime用のDistance Sensorとして認識される自作のセン�
 
 ・SPIKE用カードエッジ　https://github.com/Afrel-SPIKE-Prime-tec/spikeconnector
 
-・ジャンパーワイヤー
+・ジャンパーワイヤー、ブレッドボード
 
 ## 組み立てと実行
 以下の回路図の通りに接続します。
 
-![diy_distance_pico_sch](https://user-images.githubusercontent.com/5597377/154905261-ef6340d6-0085-4a5c-b20f-fb17dea6bce3.png)
+![diy_distance_pico_sch](https://user-images.githubusercontent.com/5597377/155250617-cbe1b20a-e1dd-4df0-bb76-c07999e0ea08.png)
 
 ・Raspberry Pi PicoにMicroPythonのファームウェアを書き込みます。
 
 ・Thonnyなどを使って、Pythonのコードを実行します。
+
+## Example for Hub
+
+![dist1](https://user-images.githubusercontent.com/5597377/154905328-ffaa2709-041b-4442-a313-d1f9a70b0fc8.png)
 
 ## プロトコル
 (1)接続の開始
