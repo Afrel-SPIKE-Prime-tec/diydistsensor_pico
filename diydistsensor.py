@@ -1,4 +1,4 @@
-# DIY Distance Sensor(LEGO SPIKE prime) Version 0.5
+# DIY Distance Sensor(LEGO SPIKE prime) Version 0.6
 # for Raspberry Pi Pico
 # by takuya matsubara
 
@@ -276,5 +276,10 @@ def sensor_control():
 sensor_init()
 
 while 1:
-  sensor_control()
+  try:
+    sensor_control()
+  except KeyboardInterrupt:  # Ctrl+C
+    break
+
+debug_message("end")
 
