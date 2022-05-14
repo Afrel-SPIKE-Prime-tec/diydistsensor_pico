@@ -15,13 +15,17 @@ LEGO(R) SPIKE Prime用のDistance Sensorとして認識される自作のセン�
 ・ジャンパーワイヤー、ブレッドボード
 
 ## 組み立てと実行
-以下の回路図の通りに接続します。
+PCから給電する場合、以下の通りに接続します。
 
 ![diy_distance_pico_sch](https://user-images.githubusercontent.com/5597377/155250617-cbe1b20a-e1dd-4df0-bb76-c07999e0ea08.png)
 
 ・Raspberry Pi PicoにMicroPythonのファームウェアを書き込みます。
 
 ・Thonnyなどを使って、Pythonのコードを実行します。
+
+ラージハブから給電する場合、以下の回路図の通りに接続します。
+
+![00004](https://user-images.githubusercontent.com/5597377/168423547-7f40f33d-249e-4860-9a53-1cecd26751a3.png)
 
 ## Example for Hub
 
